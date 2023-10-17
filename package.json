@@ -1,25 +1,25 @@
 {
-  "name": "3d-force-graph",
-  "version": "1.72.3",
+  "name": "3d-md-force-graph",
+  "version": "1.72.3.1",
   "description": "UI component for a 3D force-directed graph using ThreeJS and d3-force-3d layout engine",
   "type": "module",
-  "unpkg": "dist/3d-force-graph.min.js",
-  "main": "dist/3d-force-graph.mjs",
-  "module": "dist/3d-force-graph.mjs",
-  "types": "dist/3d-force-graph.d.ts",
+  "unpkg": "dist/3d-md-force-graph.min.js",
+  "main": "dist/3d-md-force-graph.mjs",
+  "module": "dist/3d-md-force-graph.mjs",
+  "types": "dist/3d-md-force-graph.d.ts",
   "exports": {
-    "types": "./dist/3d-force-graph.d.ts",
-    "umd": "./dist/3d-force-graph.min.js",
-    "default": "./dist/3d-force-graph.mjs"
+    "types": "./dist/3d-md-force-graph.d.ts",
+    "umd": "./dist/3d-md-force-graph.min.js",
+    "default": "./dist/3d-md-force-graph.mjs"
   },
   "sideEffects": [
     "./src/*.css"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vasturiano/3d-force-graph.git"
+    "url": "git+https://github.com/tetsufmbio/3d-md-force-graph.git"
   },
-  "homepage": "https://github.com/vasturiano/3d-force-graph",
+  "homepage": "https://github.com/tetsufmbio/3d-md-force-graph",
   "keywords": [
     "3d",
     "force",
@@ -34,7 +34,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vasturiano/3d-force-graph/issues"
+    "url": "https://github.com/vasturiano/3d-md-force-graph/issues"
   },
   "scripts": {
     "build": "rimraf dist && rollup -c",
